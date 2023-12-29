@@ -1,0 +1,89 @@
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dccccc;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.l5{position: absolute;}
+header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px; 
+    color: #110673; 
+}
+.m1{ 
+         
+    position : relative; 
+    animation: example 5s ; 
+    animation-fill-mode: forwards; 
+  } 
+  @keyframes example { 
+    from {left: -400px;} 
+    to {left: 5px; } 
+  } 
+
+  .m3{ 
+     
+     position : relative; 
+     animation: move2 5s ; 
+     animation-fill-mode: forwards; 
+  } 
+  @keyframes move2 { 
+     from {right: 0px;} 
+     to {left: 5px; } 
+  } 
+
+figure{
+    text-align: center;
+}
+aside{position: absolute;}
+.m1{
+    top:10px;
+    left: 30px;
+}
+.m2{
+    top:70px;
+    left: 20px;
+}
+.m3{
+    top:20px;
+    left: 500px;
+}
+
+
+figure{
+    position: relative;
+}
+
+footer{
+    text-align: left;
+    background-color: #dccccc;
+}
+
+@media only screen and (max-device-width:480px) { 
+    body { 
+    background-color:green; 
+   
+    } 
+} 

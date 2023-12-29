@@ -1,0 +1,49 @@
+/*body{
+    background-image:url(image/roses.jpg);
+}*/
+td{
+    text-align: center;
+    /*border-image: url(image/roses.jpg);
+    border-spacing: 10px;
+    border: 3px solid white;*/
+    border-image: url('image/roses.jpg') 30 round;
+}
+
+/*p{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;}*/
+p{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #000; /* Bordure noire en bas */
+    padding-bottom: 3px; 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(151, 25, 96);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+  
+a:hover {
+    background-color: #b40fa3;
+}

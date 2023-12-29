@@ -1,0 +1,54 @@
+body{
+   
+    background-color: #dccccc;
+    background: url('image/f2.jpg');
+    font-family:'Trebuchet MS' ;
+    width: 900px ;
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    
+    
+    background-color: #ed2fa4;
+
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+label,legend{
+    color: black;
+}
+fieldset{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+legend{
+    text-align: center;
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+input[type=text],input[type=text],input[type=text],#m,{
+    display: block;
+    margin: 5px;
+    width: 400px;
+}
+input:focus{
+    background: #eaeaea;
+}
+input[type=submit],input[type=reset]{
+    width: 100px;
+    margin:10px;
+}
+#l1{display: block;}
+#m{
+    width: 400px;
+    height: 100px;
+}
