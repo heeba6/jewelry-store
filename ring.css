@@ -3,9 +3,6 @@
 }*/
 td{
     text-align: center;
-    /*border-image: url(image/roses.jpg);
-    border-spacing: 10px;
-    border: 3px solid white;*/
     border-image: url('image/roses.jpg') 30 round;
 }
 
